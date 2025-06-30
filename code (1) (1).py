@@ -14,7 +14,7 @@ st.set_page_config(
 # --- AVISO DE SEGURANÇA ---
 # A chave de API está exposta aqui por solicitação. 
 # Para um aplicativo real, NUNCA exponha chaves no código. Use st.secrets.
-API_TOKEN = "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" 
+API_TOKEN = "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" 
 
 # URL da API do Hugging Face para o modelo Stable Diffusion XL
 API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0"
