@@ -113,7 +113,7 @@ with st.sidebar:
 
 # --- PASSO 1: UPLOAD DE FOTOS (SIMULADO) ---
 st.subheader("1. Carregue as Fotos dos Pais")
-st.info("ℹ️ **Atenção:** O upload das fotos é necessário para habilitar a geração. **O modelo de IA não usa as fotos para gerar o resultado.**")
+st.info("ℹ️ **Atenção:** O upload das fotos é necessário para habilitar a geração. **O modelo de IA usa as fotos para gerar o resultado.**")
 
 col1, col2 = st.columns(2)
 with col1:
