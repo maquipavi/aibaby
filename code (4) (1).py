@@ -72,8 +72,8 @@ st.markdown("Crie imagens realistas do seu futuro filho(a) em diferentes fases d
 # --- Barra lateral com as opções de personalização ---
 with st.sidebar:
     st.header("🔑 Configuração da API")
-    api_key = st.text_input("Chave da API Hugging Face", type="password", help="Sua chave de API é necessária para gerar as imagens.")
-    st.markdown("[Obtenha sua chave de API aqui](https://huggingface.co/settings/tokens)")
+    api_key = st.text_input("Chave da API - AI Baby", type="password", help="Sua chave de API é necessária para gerar as imagens.")
+    st.markdown("[Obtenha sua chave de API aqui](https://ai-baby-generator.streamlit.app/)")
     
     if api_key:
         HEADERS = {"Authorization": f"Bearer {api_key}"}
