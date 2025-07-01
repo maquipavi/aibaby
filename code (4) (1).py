@@ -26,7 +26,7 @@ NEGATIVE_PROMPT = "hands, fingers, deformed hands, mutated hands, arms, blurry, 
 AGE_PROMPTS = {
     # --- ALTERAÇÃO AQUI ---
     # Adicionado "swaddled in a soft blanket with hands tucked under it" para esconder as mãos
-    'Bebê': 'extreme close-up face portrait of a cute newborn baby, 1 month old, sleeping peacefully, perfect smooth skin',
+    'Bebê': 'extreme close-up face portrait of a cute newborn baby, 1 month old, sleeping peacefully with baby mittens, perfect smooth skin',
     'Criança': 'cute happy child, 6 years old, smiling, headshot portrait',
     'Adolescente': 'portrait of a teenager, 16 years old, natural look, high school photo style',
     'Adulto': 'professional headshot portrait of a young adult, 28 years old, confident expression'
